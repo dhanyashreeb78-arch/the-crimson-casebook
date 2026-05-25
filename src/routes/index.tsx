@@ -251,12 +251,6 @@ function ClueBoard() {
           <div className="absolute -inset-4 rounded bg-gradient-to-br from-primary/20 to-transparent blur-2xl" />
           <div className="relative overflow-hidden rounded border border-border shadow-[var(--shadow-noir)]">
             <img
-              src="/board"
-              alt=""
-              aria-hidden
-              className="hidden"
-            />
-            <img
               src={new URL("../assets/investigation-board.jpg", import.meta.url).href}
               alt="Investigation board with red strings"
               width={1600}
